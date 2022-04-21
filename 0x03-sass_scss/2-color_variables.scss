@@ -1,0 +1,12 @@
+$txt_color: #3D3D3D;
+$backgrnd_color: #6D6D6D; 
+body {
+    color: $txt_color;
+    background-color: $backgrnd_color;
+}
+p {
+    color: $txt_color;
+}
+h2 {
+    background-color: $backgrnd_color;
+}
