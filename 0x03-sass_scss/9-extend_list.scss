@@ -1,0 +1,19 @@
+$txt_color1: #00FF00;
+$txt_color2: #FF0000;
+
+
+.info {
+    font-size: 12px;
+}
+    
+.success {
+    @extend .info;
+    color: $txt_color1;
+ 
+}
+    
+.warning {
+    @extend .info;
+    color: $txt_color2;
+}
+
